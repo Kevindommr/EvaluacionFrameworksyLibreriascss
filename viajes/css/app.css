@@ -1,0 +1,72 @@
+.cuerpo{
+  background-image: url(../images/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+#barranav{
+  min-height: 9rem;
+}
+
+.copyright{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.menuu{
+  margin-top: -0.7rem;
+}
+.logo{
+  width: 220%;
+}
+.sloganp{
+  margin-top: -2%;
+  text-align: center;
+}
+.botonesredes{
+  min-height: 4.6rem;
+}
+.botonesredes img{
+  width: 70%;
+  filter: brightness(80%);
+}
+.botonesredes:hover img{
+  width: 70%;
+  filter: brightness(110%);
+}
+.test{
+  border: 2px solid red;
+}
+.viaje img{
+  width: 100%;
+}
+.galery img{
+    border-radius: 5%;
+}
+.publicacion{
+  margin: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border-radius: 2%;
+  border: 0px;
+  padding-bottom: 2rem;
+  min-height: 35rem;
+}
+.imgescon{
+  width: 100%;
+  padding-top: 1rem;
+}
+.perfil{
+  border-radius: 2%;
+  margin: 0.5 rem;
+  padding: 0.5rem;
+  border: 0;
+  text-align: center;
+}
+.perfil img{
+  width: 50%;
+}

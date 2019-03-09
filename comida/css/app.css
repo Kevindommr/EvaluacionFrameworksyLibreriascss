@@ -1,0 +1,130 @@
+h6{
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.food-body{
+  background: url(../images/fondo.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.logo{
+  width: 30rem;
+}
+.titulo{
+  border-right: 0.1rem solid #84c7ff;
+}
+.contenedor{
+  background-color: rgba(209, 234, 255, 0.7);
+  border-radius: 20px;
+  border: 0;
+  min-width: 90%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.test{
+  border: 1px solid red;
+
+}
+@media (max-width:900px){
+  .titulo{
+    border-right: 0;
+  }
+}
+
+.izqcol{
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(219, 224, 229, 0.7);
+  border-radius: 2%;
+}
+.favorites{
+  width: 6.5em;
+  height: 5.5rem;
+  margin: 0.7rem;
+}
+.favorites:hover{
+  filter: brightness(150%);
+}
+.publicacion{
+  background-color: rgba(245, 251, 255, 0.93);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.buscador{
+  width: 80%;
+}
+.historial{
+  padding-left: 1rem;
+}
+
+.comment{
+  width: 80%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+<-----No incluido en el framework---->
+
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  width: 20rem;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}
+ul {
+  list-style: none !important;
+  text-align: center;
+}
+.copyright{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-style: italic;
+}
